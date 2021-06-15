@@ -11,7 +11,7 @@ int main() {
 	    string str;
 	    cin >> str;
 	    
-	    int s=0,e=(str.size()-1),flag;
+	    int s=0,e=(str.size()-1);
 	    
 	    while(s<str.size() && str[s]!='1')
 	    {
